@@ -1,7 +1,40 @@
-article:last-child{
+/*article:last-child{
 	background-color: blue;
 }
 
 article:first-child{
 	background-color: green;
+}*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+	font: bold 14px verdana, sans-serif;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, 
+hgroup {
+	display: block;
+}
+
+body {
+	text-align: center;
+}
+
+#agrupar {
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+	background-color: pink;
+}
+
+img {
+	width: 100%;
 }
